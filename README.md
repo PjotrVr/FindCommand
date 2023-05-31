@@ -20,10 +20,12 @@ Follow these steps to get a development environment running:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/PjotrVr/FindCommand``` 
+git clone https://github.com/PjotrVr/FindCommand
+``` 
 or 
 ```bash
-git clone git@github.com:PjotrVr/FindCommand.git```
+git clone git@github.com:PjotrVr/FindCommand.git
+```
 
 2. Navigate to the project directory:
 
@@ -32,7 +34,8 @@ cd FindCommand
 3. Install the required packages:
 
 ```bash 
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ## Usage
 
