@@ -33,4 +33,4 @@ else:
     search_type = "dirfile"
 
 search_function = search_functions[search_type]
-search_function(args.start_path, args.name)
+search_function(args.start_path, args.name, args.case_sensitive)
