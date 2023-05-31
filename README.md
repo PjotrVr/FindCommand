@@ -19,14 +19,11 @@ Follow these steps to get a development environment running:
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/PjotrVr/FindCommand or git clone git@github.com:PjotrVr/FindCommand.git
+`git clone https://github.com/PjotrVr/FindCommand` or `git clone git@github.com:PjotrVr/FindCommand.git`
 
 2. Navigate to the project directory:
 
 cd FindCommand
-
-markdown
-
 
 3. Install the required packages:
 
@@ -49,13 +46,27 @@ Optional arguments:
 
 If you want to contribute to `FindCommand`, follow these steps:
 
-1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`.
-4. Push to the original branch: `git push origin <project_name>/<location>`.
-5. Create the pull request.
+1. Fork the `FindCommand` repository.
+
+2. Create a branch by running the following command in your terminal:
+    ```bash
+    git checkout -b <branch_name>
+    ```
+
+3. Make your changes and commit them by running:
+    ```bash
+    git commit -m '<commit_message>'
+    ```
+
+4. Push to your branch by running:
+    ```bash
+    git push origin <branch_name>
+    ```
+
+5. Finally, go to the `FindCommand` repository and create the pull request.
 
 Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
 
 ## License
 
