@@ -28,8 +28,9 @@ git clone git@github.com:PjotrVr/FindCommand.git
 ```
 
 2. Navigate to the project directory:
-
+```bash
 cd FindCommand
+```
 
 3. Install the required packages:
 
