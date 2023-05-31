@@ -1,1 +1,27 @@
-TODO: Create help manual
+This is a command-line tool for searching files and directories.
+
+SYNTAX:
+python search_script.py [OPTIONS] start_path
+
+ARGUMENTS:
+start_path: The path where the search should start. This is a mandatory argument.
+
+OPTIONS:
+-d, --dir:                Search only directories.
+-f, --file:               Search only files.
+-df, --dirfile:           Search both files and directories (default).
+-cs, --case_sensitive:    Enable case-sensitive search for names.
+--name NAME:              Specify the name or pattern to search.
+
+USAGE EXAMPLES:
+1. Search directories named 'test' starting from the path 'C:\Users\user':
+   > python search_script.py --dir --name test "C:\Users\user"
+
+2. Case-sensitive search for files named 'Test' starting from the path 'C:\Users\user':
+   > python search_script.py --file --case_sensitive --name Test "C:\Users\user"
+
+3. Search both files and directories named 'test' starting from the path 'C:\Users\user':
+   > python search_script.py --dirfile --name test "C:\Users\user"
+
+NOTE: 
+The search is case-insensitive by default unless the -cs/--case_sensitive flag is used.
