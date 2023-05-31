@@ -23,9 +23,11 @@ def search_dir(start_path, name):
                 end_index = match.end() + len(root)
                 highlight_terminal(full_path, start_index, end_index)             
   
+
 def search_dirfile(start_path, name):
     search_file(start_path, name)
     search_dir(start_path, name)
+
 
 # map the search types to the functions
 search_functions = {

@@ -4,7 +4,7 @@ import argparse
 from search import search_dir, search_file, search_dirfile
 from search import search_functions
 
-with open("help.txt") as f:
+with open("../help.txt") as f:
     help_text = f.read()
     
 parser = argparse.ArgumentParser(description=help_text)
