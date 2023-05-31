@@ -12,7 +12,7 @@ FindCommand is a powerful search utility written in Python. It enables searching
 
 ## Installation
 
-To set up FindCommand on your local machine, open PowerShell/CMD in Administrator mode follow these steps:
+To set up FindCommand on your local machine, open PowerShell/CMD in Administrator mode and follow these steps:
 
 1. Clone the repository to your local machine:
 
